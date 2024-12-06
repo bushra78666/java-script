@@ -1,0 +1,29 @@
+
+.parent{
+    height: 100%;
+    width: 100%;
+
+}
+.images{
+    height: 87vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 40%;
+    object-fit: cover;
+}
+.btn{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 1vw;
+}

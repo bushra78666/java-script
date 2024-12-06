@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgb(3, 110, 129), rgb(2, 92, 102), black);
+    padding: 50px;
+}
+
+form {
+    border: none;
+    height: 75vh;
+    width: fit-content;
+    background-color: black;
+    box-shadow: 0px 15px 30px black;
+    border-radius: 10px;
+    padding: 11px;
+}
+form h1{
+    color: rgb(6, 209, 241);
+    font-family: neue Machina;
+    font-size: 17px;
+    margin-left: 11px;
+    font-weight: 400;
+    letter-spacing: .1;
+    cursor: pointer;
+}
+form:hover {
+    transition: transform 0.5s linear 0.5s;
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+input {
+    margin: 3px;
+    height: 8vh;
+    width: 25vw;
+    background-color: rgb(186, 236, 252);
+    color: rgb(3, 45, 55);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+input:hover {
+    background-color: rgb(5, 225, 225);
+    color: white;
+}
+h2{
+   font-size: 17px;
+   font-family: neue Machina;
+   text-align: center;
+   
+}

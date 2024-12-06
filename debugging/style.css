@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: neue Machina;
+    background-color: rgb(222, 153, 247);
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(164, 61, 248);
+    cursor: pointer;
+}
+
+.menu{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+h3{
+    width: 60%;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    color: purple;
+    font-family: sans-serif;
+    display: none;
+}
+img{
+    display: none;
+    height: 17vh;
+    width: 7vw;
+    border-radius: 10%;
+    margin-left: 50px;
+}

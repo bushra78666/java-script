@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: radial-gradient(circle , black , rgb(3, 3, 254) , black);
+}
+#calculator{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+   background-color: white;
+    color: white;
+    height: 70vh;
+    width: 340px;
+    box-shadow: 0px 15px 35px white;
+}
+#calculator:hover{
+    transition: transform 0.5s linear 0.5s;
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+button{
+    background-color: rgb(241, 233, 233);
+    border: none;
+    height: 55px;
+    width: 65px;
+    margin: 5px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0px 5px 10px black;
+}
+button:hover{
+    background-color: rgb(187, 185, 185);
+}
+input{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 22px 12px;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    font-size: 25px;
+    text-align: end;
+    box-shadow: 0px 5px 5px black;
+}
+input::placeholder{
+    color: white;
+    font-size: 25px;
+}
+
+.Ans{
+    background-color: black;
+    width: 67px;
+    color: #ffff;
+}
+.Ans:hover{
+    background-color: orangered;
+    color: black;
+}
+.value1{
+    color: red;
+    width: 65px;
+}
