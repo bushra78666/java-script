@@ -3,7 +3,7 @@ function multipletable(n) {
         return "invalid input";
     }
  for (var a = 1; a <=10  ; a++){
-    console.log( n * a );
+    console.log(n + "X" + a + "=" + n * a);
  }   
 }
 var c = prompt("Enter a number ");
